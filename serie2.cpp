@@ -1,8 +1,14 @@
 /*
+* Universidad del Valle de Guatemala
+* Programación de microprocesadores
+* CC3050
 *----------------------------------------
 * Serie2.cpp
+* Determina el valor de convergencia de la serie
+* para n=1
+* ∑ [1/(n(n + 1))]
 * ---------------------------------------
-* Proyecto 3 
+* Proyecto 3
 * ---------------------------------------
 * Grupo #8
 * Encargada del codigo: Andrea Amaya
