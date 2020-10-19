@@ -27,5 +27,5 @@ int main() {
 	for (int i = 0; i < n; i++)
 		e += (1 / factorial(i));
 
-	printf("El valor de la contstante de Euler es: %f", e);
+	printf("\nEl valor de la contstante de Euler es: %f\n", e);
 }
