@@ -8,7 +8,7 @@
 * para n=1
 * ∑ [1/(n(n + 1))]
 * ---------------------------------------
-* Proyecto 3 
+* Proyecto 3
 * ---------------------------------------
 * Grupo #8
 * Encargada del codigo: Andrea Amaya

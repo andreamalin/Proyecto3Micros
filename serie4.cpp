@@ -20,6 +20,10 @@
 
 #define infinite 100 //Define hasta donde realizar la sumatoria 
 
+double serie(){
+	
+}
+
 int main ()
 {
 
