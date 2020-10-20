@@ -20,7 +20,6 @@ float factorial(int n) {
 int main() {
 	int n;								//Valor que se le da a n para ciclo for
 	float e = 0;
-	float temp;
 	printf("Ingrese el valor 'n'. A mayor valor de 'n' mayor exactitud de la constante: ");
 	scanf("%d", &n);
 	#pragma omp parallel for
