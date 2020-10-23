@@ -20,14 +20,12 @@ float factorial(int n) {
 int main() {
 	int n;								//Valor que se le da a n para ciclo for
 	float e = 0;
-	float temp = 0;
 	printf("Ingrese el valor 'n'. A mayor valor de 'n' mayor exactitud de la constante: ");
 	scanf("%d", &n);
 	#pragma omp parallel for
 	for (int i = 0; i < n; i++)
-		temp = (1 / factorial(i));
 		#pragma omp atomic
-		e += temp;
+			e += (1 / factorial(i));
 
 	printf("\nEl valor de la contstante de Euler es: %f\n", e);
 }
