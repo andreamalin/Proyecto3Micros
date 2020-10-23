@@ -56,6 +56,7 @@ int main()
 					//Se suma el ciclo actual
 					num = (omp_get_thread_num()+1)+sumar; 
 					//Se suma el resultado al total
+					#pragma omp atomic
 					total+=serie(num);
 				} //ordered
 			}//for
