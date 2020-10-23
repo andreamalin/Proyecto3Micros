@@ -12,8 +12,11 @@
 * CC3056 - Programacion de Microprocesadores
 * Proyecto Parte C
 * ------------------------------------------
+* Proyecto 3
+* ------------------------------------------
 * Se encarga de realizar la serie de:
 * (1 - (1/sqrt(x)))^x
+* Encargado del código: Brandon Hernández
 *-------------------------------------------*/
 #include <iostream>
 #include <math.h>
